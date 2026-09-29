@@ -43,7 +43,7 @@ Metrics: accuracy, precision/recall/F1 per class, macro-F1, confusion matrix (`r
 ```bash
 pip install -r requirements.txt
 python generate_data.py && python train.py
-streamlit run app.py
+python -m streamlit run app.py
 ```
 Tab 1 classifies a single email with probability bars; Tab 2 uploads a CSV and returns it sorted High → Low.
 
