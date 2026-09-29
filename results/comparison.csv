@@ -1,0 +1,10 @@
+model,features,cv_f1_mean,cv_f1_std,test_acc,test_f1_macro,f1_high,train_s,ms_per_email
+Linear SVM,TF-IDF + engineered,0.8371,0.0215,0.8738,0.8738,0.872,0.075,0.0404
+Naive Bayes,TF-IDF only,0.8489,0.024,0.8738,0.8737,0.878,0.0535,0.0305
+Logistic Regression,TF-IDF only,0.8483,0.0251,0.8738,0.8737,0.878,0.0654,0.0253
+Linear SVM,TF-IDF only,0.843,0.0237,0.8738,0.8737,0.878,0.0537,0.02
+Logistic Regression,TF-IDF + engineered,0.8411,0.0226,0.8595,0.8594,0.8591,0.0791,0.0371
+Random Forest,TF-IDF + engineered,0.8175,0.0119,0.8357,0.8355,0.8414,1.5302,0.1286
+Random Forest,TF-IDF only,0.8015,0.0127,0.8262,0.8261,0.8235,1.5373,0.0848
+Decision Tree,TF-IDF only,0.7368,0.0231,0.7857,0.7854,0.7905,0.1095,0.0204
+Decision Tree,TF-IDF + engineered,0.7403,0.0149,0.7524,0.7524,0.7345,0.1463,0.0477
